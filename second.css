@@ -1,0 +1,16 @@
+.backHome {
+	width: 150px;
+	height: 25px;
+	display: block;
+	text-decoration: none;
+	color: #38716e;
+	border: dotted 1px black;
+	text-align: center;
+	background-color: #ccc9d0;
+}
+.searchform{
+	width: 50%;
+	margin: 0 auto;
+	border: solid 1px green;
+	text-align: center;
+}
