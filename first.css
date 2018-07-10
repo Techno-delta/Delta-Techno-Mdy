@@ -1,0 +1,14 @@
+html{
+	background: #d8d7d7;
+	font-family: Arial,Helvetica,sans-serif;
+}
+h2,h3,h4{
+	color: #38716e;
+}
+navbar-menu{
+	/*border:solid 2px #c7c6be;*/
+	background-color: gray;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
