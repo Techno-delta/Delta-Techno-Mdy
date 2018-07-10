@@ -1,0 +1,33 @@
+.home {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.home li {
+	background: #c7c6be;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	width: 180px;
+}
+.home > li {	
+	border: 1px solid #d8d7d7;
+	float: left;
+}
+.home > li:hover {
+	display: block;
+}
+li a {
+	display: block;	
+	text-decoration: none;
+	color: #38716e;
+}
+.home li a:hover {
+	background: white;
+}
+th {
+	background-color: #7b7ba5;
+}
+td {
+	background-color: #9595a2;
+}
