@@ -1,0 +1,129 @@
+html {
+	background: #d8d7d7;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*body {
+	background-image: url(../img/img2.jpg);
+}*/
+
+h2, h3, h4 {
+	text-align: center;
+	color: #38716e;
+}
+
+h2:hover, h3:hover {
+	color: #000;
+}
+
+h4 a {
+	text-decoration: none;
+}
+
+#navbar_menu {
+	/*border: solid 2px #c7c6be;*/
+	background-color: gray;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+.home {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.home li {
+	background: #c7c6be;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	width: 180px;
+}
+
+.home > li {	
+	border: 1px solid #d8d7d7;
+	float: left;
+}
+
+.home > li:hover {
+	display: block;
+}
+
+li a {
+	display: block;	
+	text-decoration: none;
+	color: #38716e;
+}
+
+.home li a:hover {
+	background: white;
+}
+
+th {
+	background-color: #7b7ba5;
+}
+
+td {
+	background-color: #9595a2;
+}
+
+.backHome {
+	width: 150px;
+	height: 25px;
+	display: block;	
+	text-decoration: none;
+	color: #38716e;
+	border:dotted 1px black;
+	text-align: center;
+	background-color: #ccc9d0;
+}
+
+.backHome:hover {
+	background: black;
+}
+
+.searchform {
+	width: 50%;
+	margin: 0 auto;
+	border: solid 1px green;
+	text-align: center;
+	/*background-image: url(img/img1.jpg);*/
+}
+
+.searchform button, input{
+	width: 220px;
+	height: 40px;
+	font-size: 18px;
+}
+
+.userform {
+	text-align: center;
+}
+
+.userform button, input{
+	width: 220px;
+	height: 40px;
+	font-size: 18px;
+}
+
+.userform input {
+	text-align: left;
+}
+
+.userform button {
+	width: 225px;
+	text-align: center;
+}
+
+textarea {
+	width: 220px;
+	height: 60px;
+	font-size: 18px;
+}
+
+button:hover {
+	background-color: black;
+	color: white;
+}
