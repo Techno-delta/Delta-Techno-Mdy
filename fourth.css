@@ -1,0 +1,60 @@
+.home {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.home li {
+	background: #c7c6be;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	width: 180px;
+}
+.home > li {	
+	border: 1px solid #d8d7d7;
+	float: left;
+}
+.home > li:hover {
+	display: block;
+}
+li a {
+	display: block;	
+	text-decoration: none;
+	color: #38716e;
+}
+.home li a:hover {
+	background: white;
+}
+th {
+	background-color: #7b7ba5;
+}
+td {
+	background-color: #9595a2;
+}
+.backHome:hover {
+	background: black;
+}
+.userform {
+	text-align: center;
+}
+.userform button, input{
+	width: 220px;
+	height: 40px;
+	font-size: 18px;
+}
+.userform input {
+	text-align: left;
+}
+.userform button {
+	width: 225px;
+	text-align: center;
+}
+textarea {
+	width: 220px;
+	height: 60px;
+	font-size: 18px;
+}
+button:hover {
+	background-color: black;
+	color: white;
+}
